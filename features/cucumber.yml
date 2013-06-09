@@ -1,0 +1,4 @@
+default: --profile intentmedia_require_file --profile intentmedia_html_report
+intentmedia_require_file: -r support -r step_definitions
+intentmedia_html_report: --format pretty --format junit --out reports/cucumber/ --format html --out reports/cuke.html
+
